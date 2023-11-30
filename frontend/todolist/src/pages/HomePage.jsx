@@ -5,6 +5,9 @@ import {api} from '../utilities'
 
 
 const HomePage = () => {
+    
+    //////////////////////GET ALL LISTS/////////////////////////////
+
     const [currentLists, setCurrentLists] = useState([]);
 
     useEffect(() => {
@@ -21,7 +24,7 @@ const HomePage = () => {
         getLists();
     }, []);
 
-    ///////////////////////////////////////////////////////////////
+    /////////////////////CREATE A NEW LIST/////////////////////////////
 
     const [newList, setNewList] = useState("");
 
