@@ -7,4 +7,3 @@ class ListSerializer(serializers.ModelSerializer):
     class Meta:
         model = List
         fields = ["list_name"]
-
